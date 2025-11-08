@@ -12,33 +12,107 @@
     <div class="center">
     <h1 class=".times">Grace Godfrey</h1>
     <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>
-        Assumenda porro mollitia eum, suscipit voluptate velit adipisci quibusdam,<br>
-        a sunt dolorum impedit aliquam, laborum tempora inventore in similique<br>
-        obcaecati voluptatum odit.
+        Work. Create. Move. Repeat.
     </p>
     </div>
 </header>
+
 <div Id= "greeting"></div>
 
 <Main>
     <section>
             <h2>About Me</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum non minima quam veniam quibusdam aperiam necessitatibus, corrupti tempora, eius, ea consectetur delectus laboriosam libero laborum ad voluptatum impedit quia maiores?</p>
+            <p>I work full-time while building my own brand, ERA. Most days are a mix of work, Pilates, and spending time with my family, my boyfriend David, and our dog Coco. I love creating things that bring purpose and am working toward doing more of what feels meaningful.</p>
     </section>
 
-    <h2>Skills</h2> 
-    <ul>
-                <section>
-                <li>Reading</li>
-                <li>Baking</li>
-                <li>Teaching</li>
-            </ul>
-   </section>
+<section>
+  <h2>Skills</h2>
+  <ul>
+    <li>Creativity</li>
+    <li>Organization</li>
+    <li>Investigation</li>
+  </ul>
+</section>
+
+<section class="era">
+  <div class="era-header" id="eraToggle" aria-controls="eraIntro" aria-expanded="false">
+    <h2>My ERA</h2>
+  </div>
+
+  <div id="eraIntro" class="hidden">
+    <div class="era-intro">
+      <p>When I created my business, ERA, I didn’t realize how much that name would come to define different parts of my life.</p>
+      <p>Each heart represents one of those eras: a period of beginning, growth, and becoming.</p>
+      <p>The hearts are black because when I came into Tech Moms, life felt black and white. I didn’t know exactly what I wanted, only that I needed change. I wanted knowledge, direction, and a reason to feel proud again.</p>
+    </div>
+  </div>
+
+ <!-- Hearts always visible -->
+    <div class="heart-section">
+      <div class="heart-card">
+        <img src="BlackHeart28.png" class="heart-img" id="heart1"
+             aria-controls="heart1-story" aria-expanded="false" alt="Black stitched heart" />
+        <div id="heart1-story" class="heart-story hidden">
+          <h3>1st Heart: The Beginning of ERA</h3>
+          <p>This was when I first started ERA & Co. At the time, I was working full-time at Poplin, a remote job that gave me flexibility but drained me emotionally. I was learning how to run a business while trying to stay afloat in a job that made me feel small.</p>
+          <p>Through ERA, I taught myself how to register an LLC, design packaging, create incense and candles, and build a Shopify website. I learned how hard it is to get people to care about your product. I made a few sales, but eventually I had to pause. My mental health was slipping, and I needed to find motivation again.</p>
+        </div>
+      </div>
+
+      <div class="heart-card">
+        <img src="BlackHeart28.png" class="heart-img" id="heart2"
+             aria-controls="heart2-story" aria-expanded="false" alt="Black stitched heart" />
+        <div id="heart2-story" class="heart-story hidden">
+          <h3>2nd Heart: The Growth of ERA</h3>
+          <p>After months of burnout, I started going to Pilates every morning. Four months in, my energy came back. That’s when my mom told me about Tech Moms.</p>
+          <p>I joined because I needed confidence. I wanted to learn what I was capable of, not just what my job defined me as. I had no idea what HTML, CSS, or JavaScript even meant, but I liked that. Growth starts with being uncomfortable.</p>
+          <p>During Tech Moms, I began restructuring my career goals. I rebuilt my resume and started applying for federal jobs. I applied to the IRS and later to a legal position in the federal government.</p>
+          <p>That interview changed everything. It wasn’t with HR like I was used to, but with two government lawyers, including the Deputy Chief Counsel. I was terrified but proud. The next day, Poplin announced layoffs and I was told my last day would be December 19. I felt there was a reason for the timing.</p>
+          <p>Two weeks later, the lawyer called to say I didn’t get the original job, but he created a new position just for me. A week later, he told me I was selected. I’m now waiting on my background check and drug test to start this new chapter.</p>
+        </div>
+      </div>
+
+      <div class="heart-card">
+        <img src="BlackHeart28.png" class="heart-img" id="heart3"
+             aria-controls="heart3-story" aria-expanded="false" alt="Black stitched heart" />
+        <div id="heart3-story" class="heart-story hidden">
+          <h3>3rd Heart: The Becoming of ERA</h3>
+          <p>This heart represents resilience, learning to trust timing, intuition, and my own worth.</p>
+          <p>ERA is not just a business name anymore. It is a reminder that I am always in an era of becoming, learning, rebuilding, and finding purpose through every challenge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
     <section>
-            <h2>Work Experience</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi vitae sunt nulla dolorum. Asperiores maiores temporibus facere tempore, quae quia et repudiandae, possimus assumenda iste reprehenderit velit adipisci, culpa voluptatem!</p>
+<h2>Work Experience</h2>
+
+<button class="toggle-btn" onclick="toggleExperience()">Show Work Experience</button>
+
+<div id="experience" class="hidden">
+  <h3>Poplin – Concierge Supervisor</h3>
+  <p><em>2021–Present</em></p>
+  <ul>
+    <li>Handle customer and Laundry Pro issues with empathy and precision</li>
+    <li>Manage escalations, payments, and service quality checks</li>
+    <li>Communicate updates clearly and ensure every case is documented</li>
+  </ul>
+
+  <h3>ERA – Founder</h3>
+  <p><em>2023–Present</em></p>
+  <ul>
+    <li>Build a lifestyle brand focused on incense, candles, and meaningful design</li>
+    <li>Design packaging and manage product launches</li>
+    <li>Oversee branding visuals and content</li>
+  </ul>
+
+  <h3>Tech Moms – Participant</h3>
+  <p><em>2025 (in progress)</em></p>
+  <ul>
+    <li>Learning tech fundamentals</li>
+    <li>Building skills</li>
+  </ul>
+</div>
     </section>
     
 </Main>
@@ -50,5 +124,6 @@
     </a>
 </footer>
 <script src="index.js"></script>
+
 </body>
 </html>
